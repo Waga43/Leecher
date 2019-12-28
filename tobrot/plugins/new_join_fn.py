@@ -38,7 +38,7 @@ async def help_message_f(client, message):
     message_id = 99
     # display the /help message
     await message.reply_text(
-        f"please read the <a href='https://t.me/c/{channel_id}/{message_id}'>Pinned Message</a>",
+        f"welcome to @anyleech , Powered By @r4v4n4 & Note: leeching educational Contents will lead to instant ban...",
         quote=True
     )
 
@@ -53,7 +53,7 @@ async def rename_message_f(client, message):
     ])
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
     await message.reply_text(
-        "please use @renamebot",
+        "Gand Mara BTC",
         quote=True,
         reply_markup=reply_markup
     )
