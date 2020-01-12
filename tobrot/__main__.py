@@ -96,7 +96,7 @@ if __name__ == "__main__" :
 
     help_text_handler = MessageHandler(
         help_message_f,
-        filters=Filters.command(["help@anyleechbot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["elp@anyleechbot"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(help_text_handler)
     #
@@ -119,13 +119,13 @@ if __name__ == "__main__" :
     #
     save_thumb_nail_handler = MessageHandler(
         save_thumb_nail,
-        filters=Filters.command(["savethumbnail@anyleechbot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["savehumbnail@anyleechbot"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(save_thumb_nail_handler)
     #
     clear_thumb_nail_handler = MessageHandler(
         clear_thumb_nail,
-        filters=Filters.command(["clearthumbnail@anyleechbot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["clearhumbnail@anyleechbot"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(clear_thumb_nail_handler)
     #
