@@ -48,12 +48,12 @@ async def rename_message_f(client, message):
     inline_keyboard.append([
         pyrogram.InlineKeyboardButton(
             text="read this?",
-            url="https://t.me/keralagram/698909"
+            url="https://github.com/ElytrA8/Leecher"
         )
     ])
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
     await message.reply_text(
-        "Gand Mara BTC",
+        "Go To hell BTC",
         quote=True,
         reply_markup=reply_markup
     )
