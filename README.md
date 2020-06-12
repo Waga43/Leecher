@@ -1,4 +1,4 @@
-# Telegram Torrent Leecher 🔥🤖
+# TESLA Torrent Leecher 🔥🤖
 
 A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.com/pyrogram/pyrogram)
 
@@ -12,7 +12,7 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
 Simply clone the repository and run the main file:
 
 ```sh
-git clone https://github.com/SpEcHiDe/PublicLeech.git
+git clone https://github.com/ElytrA8/Leecher.git
 cd PublicLeech
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
