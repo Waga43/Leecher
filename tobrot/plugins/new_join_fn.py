@@ -38,7 +38,7 @@ async def help_message_f(client, message):
     message_id = 99
     # display the /help message
     await message.reply_text(
-        f"welcome to @anyleech , Powered By @r4v4n4 & Note: leeching educational Contents will lead to instant ban...",
+        f"welcome to ElytrA8's Paradise , Powered By @ElytrA8 & Note: leeching pornographic Contents will lead to instant ban...",
         quote=True
     )
 
