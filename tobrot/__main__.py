@@ -54,19 +54,19 @@ if __name__ == "__main__" :
     #
     incoming_message_handler = MessageHandler(
         incoming_message_f,
-        filters=Filters.command(["leech@anyleechrebootbot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["leech"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_message_handler)
     #
     incoming_youtube_dl_handler = MessageHandler(
         incoming_youtube_dl_f,
-        filters=Filters.command(["ytdl@anyleechrebootbot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["ytdl"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_youtube_dl_handler)
     #
     status_message_handler = MessageHandler(
         status_message_f,
-        filters=Filters.command(["status@anyleechrebootbot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["status"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(status_message_handler)
     #
@@ -84,7 +84,7 @@ if __name__ == "__main__" :
     #
     rename_message_handler = MessageHandler(
         rename_message_f,
-        filters=Filters.command(["rename@anyleechbot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["rename"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(rename_message_handler)
     #
@@ -96,7 +96,7 @@ if __name__ == "__main__" :
 
     help_text_handler = MessageHandler(
         help_message_f,
-        filters=Filters.command(["help@anyleechbot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["help"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(help_text_handler)
     #
@@ -119,13 +119,13 @@ if __name__ == "__main__" :
     #
     save_thumb_nail_handler = MessageHandler(
         save_thumb_nail,
-        filters=Filters.command(["savehumbnail@anyleechbot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["savehumbnail"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(save_thumb_nail_handler)
     #
     clear_thumb_nail_handler = MessageHandler(
         clear_thumb_nail,
-        filters=Filters.command(["clearhumbnail@anyleechbot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["clearhumbnail"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(clear_thumb_nail_handler)
     #
